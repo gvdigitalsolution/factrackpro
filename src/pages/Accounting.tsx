@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Download, RefreshCw, FileText, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { RefreshCw, FileText } from 'lucide-react';
 
 interface VatGrid {
   '00': number;

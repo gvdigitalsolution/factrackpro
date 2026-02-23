@@ -1,4 +1,3 @@
-import React from 'react';
 import { LayoutDashboard, Users, FileText, CreditCard, Package, Calculator, FileSpreadsheet, Settings, LogOut } from 'lucide-react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';

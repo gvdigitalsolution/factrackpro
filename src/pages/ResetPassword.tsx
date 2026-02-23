@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
-import { Lock, ArrowLeft } from 'lucide-react';
+import { useState } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import { Lock } from 'lucide-react';
 
 const ResetPassword = () => {
   const { token } = useParams();

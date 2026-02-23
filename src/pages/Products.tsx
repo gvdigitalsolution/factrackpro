@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Plus, Edit, Trash2, Package } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Plus, Edit, Trash2 } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 interface Product {
